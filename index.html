@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creation</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <h1><u>STUDENT REGISTRATION FORM</u></h1>
+    <div class="container">
+        <form action="" method="post">
+            <table>
+                <tr>
+                    <td><label for="FIRST NAME">FIRST NAME</label></td>
+                    <td><input type="text" placeholder="Enter first name" autocomplete="off" required></td>
+                </tr>
+                <tr>
+                    <td><label for="LAST NAME">LAST NAME</label></td>
+                    <td> <input type="text" placeholder="Enter Last name" autocomplete="off" required></td>
+                </tr>
+                <tr>
+                    <td><label for="DATE OF BIRTH">DATE OF BIRTH  </label></td>
+                    <td><input type="date" placeholder="Enter DOB" autocomplete="off" required></td>
+                </tr>
+                <tr>
+                    <td><label for="EMAIL ID">EMAIL ID </label></td>
+                    <td><input type="email" placeholder=" Enter Email id" autocomplete="off" required                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="MOBILE NUMBER">MOBILR NUMBER : </label></td>
+                    <td><input type="number" placeholder="Enter Mobile number" autocomplete="off" required></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td><input type="radio" id="male" name="gender" value="male">Male   
+                    <input type="radio" id="Female" name="gender" value="male">Female</td>
+                </tr>
+
+                <tr>
+                    <td><label for="Address">ADDRESS&nbsp;</label></td>
+                    <td> <textarea name="ADDRESS" id="" cols="25" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="city">CITY</label></td>
+                    <td><input type="text" placeholder="City" autocomplete="off" required></td>
+                </tr>
+                <tr>
+                    <td><label for="pin code">PIN CODE</label></td>
+                    <td><input type="text" placeholder="Pin code" autocomplete="off" required></td>
+                </tr>
+                <tr>
+                    <td><label for="state">STATE</label></td>
+                    <td><input type="text" placeholder="State" autocomplete="off" required></td>
+                </tr>
+                <tr>
+                    <td><label for="country">COUNTRY</label></td>
+                    <td> <input type="text" placeholder="Country" autocomplete="off" required></td>
+                </tr>
+                <tr>
+                    <td><label for="hobbies">HOBBIES</label></td>
+                    <td>
+                    <input type="checkbox" name="hobbies" id="drwaing" value="drwaing">Drawing
+                    <input type="checkbox" name="singing" id="singing" value="singing">singing
+                    <input type="checkbox" name="dancing" id="dancing" value="dancing">Dancing
+                    <input type="checkbox" name="sketch" id="sketch" value="sketch">Sketch
+                    <br>
+                    <br>
+                    <input type="checkbox" name="others" id="others" value="others">Others
+                    <input type="text" placeholder="Enter your hobbies" autocomplete="off"></td>
+                </tr>
+                <tr>
+                    <td><label for="qualification">QUALIFICATION</label></td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th class="main">SR.NO.Examination</th>
+                                <th class="main">Examination</th>
+                                <th class="main">Board</th>
+                                <th class="main">Percentage</th>
+                                <th class="main">Year Of passing</th>
+                            </tr>
+                            <tr>
+                             <td class="main">1</td>
+                             <td class="main">Class X</td>
+                             <td class="main"><input type="text"></td>
+                             <td class="main"><input type="text"></td>
+                             <td class="main"><input type="text"></td>
+                            </tr>                
+                            <tr>
+                            <td class="main">2</td>
+                            <td class="main">Class Xll</td>
+                            <td class="main"><input type="text"></td>
+                            <td class="main"><input type="text"></td>
+                            <td class="main"><input type="text"></td>
+                        </tr>
+                
+                           <tr>
+                           <td class="main">3</td>
+                           <td class="main">Graduation</td>
+                           <td class="main"><input type="text"></td>
+                           <td class="main"><input type="text"></td>
+                           <td class="main"><input type="text"></td>
+                        </tr>
+                
+                          <tr>
+                          <td class="main">4</td>
+                          <td class="main">Masters</td>
+                          <td class="main"><input type="text"></td>
+                          <td class="main"><input type="text"></td>
+                          <td class="main"><input type="text"></td>
+                        </tr>
+                
+                           </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="courses">COURSES APPLIED FOR</label></td>
+                    <td><input type="radio" name="bca" id="bca">BCA
+                    <input type="radio" name="bcom" id="bcom">B.Com
+                    <input type="radio" name="bsc" id="bsc">BSC
+                    <input type="radio" name="ba" id="ba">B.A</td>
+                </tr>
+            </table>
+            <div style="text-align: center;">
+                <button>Submit</button>
+                <button>Reset</button>
+            </div>
+            <br>
+            
+          <div>
+          </div>
+
+        </form>
+    </div>
+</body>
+</html>
